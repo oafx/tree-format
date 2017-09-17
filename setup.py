@@ -19,7 +19,7 @@ import os
 from setuptools import find_packages, setup
 
 
-with open(os.path.join(os.path.dirname(__file__), "README.md"), encoding='utf8') as readme:
+with open(os.path.join(os.path.dirname(__file__), "README.md"), encoding='utf-8') as readme:
     long_description = readme.read()
 
 classifiers = [
@@ -37,7 +37,7 @@ classifiers = [
 setup(
     name="tree-format",
     long_description=long_description,
-    version="0.1.0",
+    version="0.1.1",
     packages=find_packages(),
     author="Jonathan M. Lange",
     author_email="jml@mumak.net",
